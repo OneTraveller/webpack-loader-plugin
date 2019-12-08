@@ -21,3 +21,5 @@ module.exports = function (source) {
   source = source.replace(/\[loader\]/g, options.loader);
   return source;
 }
+
+// 参考链接：https://juejin.im/post/5cb58fb6f265da03452bd070
